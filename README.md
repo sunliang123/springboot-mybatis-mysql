@@ -27,7 +27,7 @@ mybatis自动创建数据表（目前仅限mysql）
 	</dependency>
 以上三个包，第一个是自动创建表的关键包，剩下的两个是第一个包中必须要用到的两个包，这三个都要导入，其他的类似于Mysql、Mybatis的包我这里就不累赘了
 
-2、在properties中，放置的是自动创建表的配置信息，如下
+2、在application.properties中，放置的是自动创建表的配置信息，如下
 
 mybatis.table.auto=update
 mybatis.model.pack=com.example.entity
